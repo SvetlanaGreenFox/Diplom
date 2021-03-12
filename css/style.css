@@ -1362,6 +1362,16 @@ body {
   background-color: #ffffff;
 }
 
-.checkbox__hidden {
-  display: none;
+@media (min-width: 1200px) {
+
+  .checkbox__hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .checkbox__hidden {
+    display: block;
+  }
 }
